@@ -8,12 +8,17 @@ body {
     flex-direction: column;
 }
 
+/* Standardised stuff*/
+
+
+/* Header Stuff*/
+
 .header {
     background-color: #1F2937;
 
     display: flex;
     justify-content: space-between;
-    padding: 16px 50px;
+    padding: 30px 120px;
 }
 
 .links {
@@ -30,6 +35,191 @@ body {
 
 a {
     text-decoration: none;
-    font-size: 15px;
-    color: #cbcccf;
+    font-size: 20px;
+    color: #dedfe2;
+}
+
+
+/* Website is Awesome Stuff (Content 1: Introduction)*/
+
+.content1 {
+    background-color: #1F2937;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 90px;
+}
+
+.centerbox {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 8px;
+}
+
+.mainText {
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondaryText {
+    color: #c0c1c4;
+    font-size: 18px;
+}
+
+.box {
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+
+}
+
+button {
+    background-color:  #3882f6;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 18px;
+    border-radius: 8px;
+
+    width: 150px;
+    display:inline;
+    text-align: center;
+}
+
+/* Random Information (Content 2) */
+
+
+.content2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 90px;
+}
+
+.content2 > .mainText {
+    font-size: 30px;
+    color:#1F2937;
+}
+
+.boxRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.caption {
+    color:#3b3b3b;
+    text-align: center;
+    font-size: large;
+}
+
+.boxColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boxColumn img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+    border: 4px solid #3b3b3b;
+    border-radius: 15px;
+}
+
+/* Quote (Content 3) */
+
+
+.content3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 120px;
+}   
+
+.content3 > .centerbox {
+    text-align: center;
+    gap: 20px;
+}
+
+.quote {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    text-align: start;
+}
+
+.box {
+    display: flex;
+}
+
+.author {
+    font-size: 20px;
+    color: #1F2937;
+    text-align: end;
+}
+
+/* Call to Action (Content 4) */
+
+
+.content4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 120px;
+}
+
+.content4 > .box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 30px;
+    border-radius: 8px;
+}
+
+.box > .centerbox > .mainText {
+    font-size: large;
+    text-align: start;
+}
+
+.box > .centerbox > .secondaryText {
+    font-size: medium;
+    text-align: left;
+}
+
+.box > button {
+    border-color: #fff;
+    border-radius: 8px;
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 1px 1px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 15px 120px;
+}
+
+.footer > a {
+    font-size: small;
 }
