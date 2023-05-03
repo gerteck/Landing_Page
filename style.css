@@ -201,10 +201,10 @@ button {
 
 .box > button {
     border-color: #fff;
+    padding: 5px 25px;
     border-radius: 8px;
     border: 2px solid white;
     cursor: pointer;
-    padding: 1px 1px;
 }
 
 
